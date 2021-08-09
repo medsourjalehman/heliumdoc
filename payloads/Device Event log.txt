@@ -1,0 +1,130 @@
+[
+  {
+    "category": "uplink",
+    "data": {
+      "integration": {
+        "id": "63ebf562-deca-4825-bff2-f1d4ca4d6709",
+        "name": "Label Name",
+        "status": "success"
+      },
+      "res": {
+        "body": " ",
+        "code": 200,
+        "headers": {
+          
+        }
+      }
+    },
+    "description": "Response received from <<\"Label Name\">>",
+    "device_id": "7e40432c-8d9f-4944-a55f-4d914594c61d",
+    "frame_down": null,
+    "frame_up": null,
+    "id": "b0a6b5e8-1c54-4401-8745-8009d4fe5479",
+    "organization_id": "77e32764-3028-4386-b704-305bae5adcda",
+    "reported_at": "1628296421425",
+    "router_uuid": "97fab59b-8c09-4fa0-86fc-af6b5eac7830",
+    "sub_category": "uplink_integration_res"
+  },
+
+  {
+    "category": "uplink",
+    "data": {
+      "integration": {
+        "id": "63ebf562-deca-4825-bff2-f1d4ca4d6709",
+        "name": "Label Name",
+        "status": "success"
+      },
+      "req": {
+        "body": "entry=Temperature%20Sensor&entry.1725776543=3.1&entry.1972793442=27.92&entry.135031335=37.9&entry.834568448=28.31&undefined=undefined&undefined=undefined&undefined=undefined&undefined=undefined&undefined=undefined&undefined=undefined",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "method": "post",
+        "url": "https://???",
+        "url_params": {
+          "key": "value"
+        }
+      }
+    },
+    "description": "Request sent to <<\"Label name\">>",
+    "device_id": "7e40432c-8d9f-4944-a55f-4d914594c61d",
+    "frame_down": null,
+    "frame_up": null,
+    "id": "541edeab-5df6-4c88-8cf6-32a208a71055",
+    "organization_id": "77e32764-3028-4386-b704-305bae5adcda",
+    "reported_at": "1628296421425",
+    "router_uuid": "97fab59b-8c09-4fa0-86fc-af6b5eac7830",
+    "sub_category": "uplink_integration_req"
+  },
+{
+    "category": "uplink",
+    "data": {
+      "dc": {
+        "balance": 9815,
+        "nonce": 1,
+        "used": 1
+      },
+      "devaddr": "4B000048",
+      "fcnt": 317,
+      "hotspot": {
+        "channel": 14,
+        "frequency": 905.0999755859375,
+        "id": "112hbKyLPfiAZeiNKn3snYkNnqX4aYMQCcPqhwMvH83JsrRzRruT",
+        "lat": 30.266539066288843,
+        "long": -97.7465517587194,
+        "name": "cuddly-cerulean-alpaca",
+        "rssi": -109,
+        "snr": -8,
+        "spreading": "SF10BW125"
+      },
+      "mac": [],
+      "payload": "zBwK6AF7AQsPf/8=",
+      "payload_size": 11,
+      "port": 2
+    },
+    "description": "Unconfirmed data up received",
+    "device_id": "7e40432c-8d9f-4944-a55f-4d914594c61d",
+    "frame_down": null,
+    "frame_up": 317,
+    "id": "8ca96218-eb93-4f34-93c6-b5f68b313ac6",
+    "organization_id": "77e32764-3028-4386-b704-305bae5adcda",
+    "reported_at": "1628296420600",
+    "router_uuid": "97fab59b-8c09-4fa0-86fc-af6b5eac7830",
+    "sub_category": "uplink_unconfirmed"
+  },
+  {
+    "category": "uplink",
+    "data": {
+      "dc": {
+        "balance": 9816,
+        "nonce": 1,
+        "used": 1
+      },
+      "devaddr": "4B000048",
+      "fcnt": 317,
+      "hotspot": {
+        "channel": 14,
+        "frequency": 905.0999755859375,
+        "id": "13yFhGur7Guvu3H3zioQazt6xgy7WPxGSeRE2frjRiFLZF9tRjC",
+        "lat": "unknown",
+        "long": "unknown",
+        "name": "quiet-felt-cat",
+        "rssi": -31,
+        "snr": 12.800000190734863,
+        "spreading": "SF10BW125"
+      },
+      "mac": [],
+      "payload": "zBwK6AF7AQsPf/8=",
+      "payload_size": 11,
+      "port": 2
+    },
+    "description": "Unconfirmed data up received",
+    "device_id": "7e40432c-8d9f-4944-a55f-4d914594c61d",
+    "frame_down": null,
+    "frame_up": 317,
+    "id": "2424a471-cfeb-46d5-a386-daeed4254c2f",
+    "organization_id": "77e32764-3028-4386-b704-305bae5adcda",
+    "reported_at": "1628296420530",
+    "router_uuid": "97fab59b-8c09-4fa0-86fc-af6b5eac7830",
+    "sub_category": "uplink_unconfirmed"
+  },
