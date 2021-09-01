@@ -1,0 +1,12 @@
+MediaSourcery KST3320: this is the file KST sent us with a sensors part name, serial number, etc. 
+	for our purposes it lacks a Name field. We can make one by adding the pn and sn, an example is in the 
+	included csv file. 
+import devices to helium.csv: By making a column "Name" and populating it with pn + sn, we are giving each sensor
+	a unique name. This is the format helium accepts, the field names are not case sensitive
+
+pictures go in this order: 
+import devices, (you can drag and drop csv file)
+csv format, (explains required fields)
+drag, drop and devices found, (after dragging and dropping this is what you see)
+import status, (after import, given import status)
+pending devices. (shows devices in devices list, pending as they are connecting. This takes a moment)
